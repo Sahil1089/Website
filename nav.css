@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #efffffbe;
+    
+}
+.nav,#nav{
+    height: 8vh;
+    background-color: rgb(179, 201, 201);
+}
+ footer{
+    height: 30vw;
+    background-color: black;
+    margin-top: 30px;
+}
+.main .hero{
+    height: 40vw;
+    width: 100%;
+    background-color: #aee2de;
+    margin-top:40px;
+}
+section{
+    margin: 2.9vw 0;
+}
+legend{
+    font-size: 5vw ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+section a:hover{
+    color: black;
+}
+section .cd{
+    width: fit-content;
+}

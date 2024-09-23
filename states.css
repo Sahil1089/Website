@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #f5ffff;
+}
+.statecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vw;
+}
+.state{
+    height: 120px;
+    width: 180px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin: 2vw 2vw;
+    box-shadow: 5px 5px 6px rgba(109, 109, 109, 0.486),inset 4px 4px 6px rgba(34, 34, 34, 0.384);
+
+}
+nav{
+    height: 9vh;
+    border-bottom: 1px solid black;
+}

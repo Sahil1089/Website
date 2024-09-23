@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #efffffbe;
+    
+}
+.header{
+    height: 8vh;
+    background-color: rgb(179, 201, 201);
+    margin-top: 0;
+}
+ #hero{
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    background-color: #f9efff;
+    justify-content: space-between;
+    
+    
+    z-index:999;
+    margin-top: 25px;
+   
+}
+.hero video{
+    height:100%;
+    width: 100vw;
+}
+.page2{
+    margin-top: 40px;
+    overflow: hidden;
+   
+}
+.page2 .img{
+    position: absolute;
+    right: -20%;
+    top: -10%;
+    height: 36vw;
+    rotate: 20deg;
+    overflow: hidden;
+    
+    width: 36vw;
+    background-color: rgb(255, 255, 255);
+    z-index:0;
+    animation: rot 44s linear .5s infinite ;
+
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.page2 .img img{
+    height: 100%;
+    width: 100%;
+}
+.page2 h1{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page2 .places{
+    width: 96%;
+    margin: 0 2vw;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5vw;
+}
+.page2 .state{
+    height: 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.page2 .state .left{
+    height: 15vw;
+    width: 15vw;
+    margin: 1vw 2vw;
+    border-radius: 10px;
+    background-color: #664545;
+}
+.page2 .state .right{ height: 15vw;
+    width:70%;
+    margin: 1vw 1vw;
+    border-radius: 10px;
+    background-color: #664545;}
+.page2  .advert{
+        height: 25vw;
+        width: 86%;
+        border-radius: 10px;
+        background-color: #201010;
+        margin-bottom: 30px;
+    }
+
+#section{
+    height: 45vw;
+    margin-top: 40px;
+}
+.wrapper #Show_all{
+    height: 4.8vh;
+    width: 10vw;
+    border: none;
+    font-size: 1.82vw;
+    border-radius:8px;
+    background-color: #fbeaff;
+    box-shadow: 5px 5px 6px rgba(109, 109, 109, 0.8),inset 4px 4px 6px rgba(34, 34, 34, 0.562);
+    position: relative;
+    top: 10%;
+    left: 40%;
+    font-size: 1rem;
+    color:black;
+    
+}
+.wrapper footer{
+    height: 30vw;
+    background-color: black;
+    margin-top: 30px;
+}
